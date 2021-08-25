@@ -1,0 +1,73 @@
+:root {
+    --text-color: #000000;
+    --accent-color: #202020;
+  }
+  body {
+    margin: 0px;
+    background: #ffffff;
+  }
+  .navbar {
+    background-color: #FFF8CE;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+  }
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .navbar_logo {
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .navbar_logo * {
+    font-size: x-large;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: var(--text-color);
+  }
+  .navbar_menu li:hover {
+    background-color: var(--accent-color);
+  }
+  .navbar_menu li {
+    padding: 8px 12px;
+  }
+  .navbar_menu {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+  }
+  .navbar_icon {
+    display: flex;
+  }
+  .navbar_icon a {
+    color: var(--text-color);
+    padding: 8px 12px;
+  }
+  .navbar_toggleBtn {
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    font-size: 24px;
+    color: #d49466;
+    display: none;
+  }
+  .classroom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  img{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+  }
+  .myclass{
+    font-size: xx-large;
+    color: #000000;
+  }
+   
